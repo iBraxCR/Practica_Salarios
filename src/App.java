@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
+
         int horas;
         int ganancia;
         int horasextras;
@@ -21,7 +21,7 @@ public class App {
             // Calculamos la ganancia total sumando las horas normales y las horas extras
             ganancia = 40 * 16 + horasextras;
 
-            JOptionPane.showMessageDialog(null, "Se le paga a 16 x h. Usted trabajó más de 40 horas, Cantidad de horas extra registradas: " + (horas - 40) + "h Se le paga la cantidad de: " + ganancia);
+            JOptionPane.showMessageDialog(null, "Se le paga a 20 x h extra. Usted trabajó más de 40 horas, Cantidad de horas extra registradas: " + (horas - 40) + "h Se le paga la cantidad de: " + ganancia);
         }
     }
 }
